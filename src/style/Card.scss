@@ -5,8 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
-    height: 40vh;
+    width: 270px;
+    height: 392px;
     border-radius: 10px;
     border: 1px solid rgb(199, 199, 199);
     box-shadow: 5px 5px 5px rgb(179, 179, 179);
@@ -28,11 +28,11 @@
         .GradeIcon {
             position: absolute;
             right: 10px;
-            top: 5px;
+            top: 10px;
             width: 25px;
         }
         .TitleCard {
-            margin: 10px 0;
+            margin: 15px 0 20px;
         }
         .TextCard {
             font-size: 14px;
