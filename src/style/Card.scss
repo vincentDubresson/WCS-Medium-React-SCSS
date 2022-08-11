@@ -1,0 +1,72 @@
+.MainCard {
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 40vh;
+    border-radius: 10px;
+    border: 1px solid rgb(199, 199, 199);
+    box-shadow: 5px 5px 5px rgb(179, 179, 179);
+    .PictureCard {
+        background-image: url('https://picsum.photos/id/609/268/137.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 40%;
+        border-radius: 10px 10px 0 0;
+        transition: 0.2s;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    .ContentCard {
+        position: relative;
+        width: 95%;
+        height: 40%;
+        .GradeIcon {
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            width: 25px;
+        }
+        .TitleCard {
+            margin: 10px 0;
+        }
+        .TextCard {
+            font-size: 14px;
+            text-align: justify;
+            color: gray;
+        }
+    }
+    .LinksCard {
+        position: relative;
+        width: 90%;
+        height: 20%;
+        padding-top: 10px;
+        border-top: 1px solid lightgray;
+        .TextLinksCard {
+            font-size: 12px;
+            margin-bottom: 5px;
+            color: gray;
+            span {
+                color: rgb(59, 59, 59) !important;
+            }
+        }
+        .ButtonCard {
+            cursor: pointer;
+            background-color: rgb(170, 170, 170);
+            position: absolute;
+            right: 0px;
+            bottom: 15px;
+            height: 25px;
+            border: none;
+            border-radius: 5px;
+            transition: 0.2s;
+            &:hover {
+                background-color: gray;
+            }
+        }
+    }
+}
